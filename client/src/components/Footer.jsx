@@ -32,8 +32,11 @@ const onMsgChange= (e)=>{
     setContact({  name:"",
     email: "",
     message: "", sent: true})
+
     setTimeout(()=>{
-      setContact({...contacts, sent: false})
+      setContact({  name:"",
+      email: "",
+      message: "", sent: false})
     },2500)
     axios({
       method: "post",
