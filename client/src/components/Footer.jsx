@@ -35,7 +35,7 @@ const onMsgChange= (e)=>{
     },2500)
     axios({
       method: "post",
-      url: "http://localhost:5000/contact_us",
+      url: "/contact_us",
     data: {
       contacts// This is the body part
     }
