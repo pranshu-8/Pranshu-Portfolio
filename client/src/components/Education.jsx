@@ -21,32 +21,32 @@ const Education = () => {
           <p className="time-spent">2020-2024</p>
         </Col>
         <Col xs={8} className="education-degree">
-          <p className="degree-name">Bachelor of Technology(B.Tech)- Computer Science and Engineering ( CPI - 9.07 ) </p>
+          <p className="degree-name">Bachelor of Technology(B.Tech)- Computer Science and Engineering </p>
           <p className="degree-location"><i class="fa fa-map-marker-alt"></i>
-         Jais, Rae Bareli, Uttar Pradesh, India</p>
+         Jais, Rae Bareli, Uttar Pradesh, India ( CPI - 9.07 ) </p>
          <p className="time-spent"></p>
         </Col>
       </Row>
       <Row class="row" >
         <Col xs={4} className="education-institute">
           <p className="institute-name">D.A.V Centenary Public School</p>
-          <p className="time-spent">2020     (  Percentage : 92.8%)</p>
+          <p className="time-spent">2020</p>
         </Col>
         <Col xs={8} className="education-degree">
           <p className="degree-name">Intermediate (Class XII) </p>
           <p className="degree-location"><i class="fa fa-map-marker-alt"></i>
-         Jaipur, India</p>
+         Jaipur, India  (  Percentage : 92.8%)</p>
         </Col>
       </Row>
       <Row class="row" >
         <Col xs={4} className="education-institute">
           <p className="institute-name">D.A.V Centenary Public School</p>
-          <p className="time-spent">2018   (  Percentage : 95.4%)</p>
+          <p className="time-spent">2018 </p>
         </Col>
         <Col xs={8} className="education-degree">
           <p className="degree-name">Matriculate (Class X) </p>
           <p className="degree-location"><i class="fa fa-map-marker-alt"></i>
-         Jaipur, India</p>
+         Jaipur, India (  Percentage : 95.4%)</p>
         </Col>
       </Row>
       

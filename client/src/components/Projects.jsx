@@ -57,7 +57,10 @@ is managed nothing else can be managed"</h2>
                     <div className='project-item'>
                     <i></i>
                     <h4>RGTeria</h4>
-                    <p><span>EJS</span><span> Nodejs</span><span> Express</span><span> MongoDB</span><span> Sockets</span><span> EJS</span><span> WebPack Modules</span><span> Sass </span><span> HTML</span><span> CSS</span></p>
+                    <p>Technology Used :  <span>EJS</span><span> Nodejs</span><span> Express</span><span> MongoDB</span><span> Sockets</span><span> EJS</span><span> WebPack Modules</span><span> Sass </span><span> HTML</span><span> CSS</span></p>
+                    <p>This is a food ordering app for our college night canteen with real time order updates, payment integration, google login and a responsive design.</p>
+                    <p>Deployed Link: <a target="_blank" rel="noopener noreferrer" href="https://rgteria.onrender.com/">RGTeria</a> </p>
+                    <p>Project Code: <a target="_blank" rel="noopener noreferrer" href="https://github.com/pranshu-8/RGTeria">Code</a> </p>
                     <hr/>
                     </div>
                 </Col>
@@ -65,7 +68,7 @@ is managed nothing else can be managed"</h2>
                     <div className='project-item'>
                     <i></i>
                     <h4>Training and Placement Portal</h4>
-                    <p><span>React</span><span> Nodejs </span><span>Javascript</span><span> Express</span><span> HTML</span><span> CSS</span></p>
+                    <p>Technology Used : <span>React</span><span> Nodejs </span><span>Javascript</span><span> Express</span><span> HTML</span><span> CSS</span></p>
                     <hr/>
                     <h6></h6>
                     </div>
@@ -74,15 +77,18 @@ is managed nothing else can be managed"</h2>
                     <div className='project-item'>
                     <i></i>
                     <h4>Social Media Website- Memories</h4>
-                    <p><span>Reactjs</span><span>MongoDB</span><span> Express</span><span> Redux</span><span> Nodejs</span></p>
+                    <p>Technology Used :  <span>Reactjs</span><span>MongoDB</span><span> Express</span><span> Redux</span><span> Nodejs</span></p>
                     <hr/>
                     </div>
                 </Col>
                 <Col xs={12} sm={6} md={6} lg= {4} className="project-col">
                     <div className='project-item'>
                     <i></i>
-                    <h4>Ecommerce Website</h4>
-                    <p><span>Reactjs</span><span> MongoDB</span><span> Express</span><span> Redux</span><span> Nodejs</span></p>
+                    <h4>Personal Portfolio</h4>
+                    <p>Technology Used : <span> Reactjs</span><span> Express</span><span> Nodejs</span><span> HTML</span> <span> CSS</span></p>
+                    <p>My personal developer portfolio made using react, nodejs and express. The project code has been separated into frontend and backend. While the backend is deployed on Cyclic, frontend is deployed on netlify. </p>
+                    <p>Deployed Link: <a target="_blank" rel="noopener noreferrer" href="https://superb-frangipane-54479d.netlify.app">Portfolio</a> </p>
+                    <p> (i) <a target="_blank" rel="noopener noreferrer" href="https://github.com/pranshu-8/Pranshu-Portfolio">Frontend Code</a>  (ii) <a  href="https://github.com/pranshu-8/portfolio-back-end">Backend Code</a></p>
                     <hr/>
                     </div>
                 </Col>
