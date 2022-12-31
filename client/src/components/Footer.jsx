@@ -35,7 +35,7 @@ const onMsgChange= (e)=>{
     },2500)
     axios({
       method: "post",
-      url: "https://63afe661af32d16a2552f2ca--superb-frangipane-54479d.netlify.app/contact_us",
+      url: "https://excited-cyan-turkey.cyclic.app/contact_us",
     data: {
       contacts// This is the body part
     }
