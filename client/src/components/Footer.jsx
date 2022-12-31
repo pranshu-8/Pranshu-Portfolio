@@ -29,15 +29,7 @@ const onMsgChange= (e)=>{
     // console.log("bhakk")
    
     e.preventDefault()
-    setContact({  name:"",
-    email: "",
-    message: "", sent: true})
 
-    setTimeout(()=>{
-      setContact({  name:"",
-      email: "",
-      message: "", sent: false})
-    },2500)
     axios({
       method: "post",
       url: "https://excited-cyan-turkey.cyclic.app/contact_us",
@@ -48,6 +40,15 @@ const onMsgChange= (e)=>{
    } ).then((res)=>{
 
     }).catch((err)=> console.log(err))
+    setContact({  name:"",
+    email: "",
+    message: "", sent: true})
+
+    setTimeout(()=>{
+      setContact({  name:"",
+      email: "",
+      message: "", sent: false})
+    },2500)
   }
     return (
         <Fragment>
