@@ -29,7 +29,9 @@ const onMsgChange= (e)=>{
     // console.log("bhakk")
    
     e.preventDefault()
-    setContact({...contacts, sent: true})
+    setContact({  name:"",
+    email: "",
+    message: "", sent: true})
     setTimeout(()=>{
       setContact({...contacts, sent: false})
     },2500)
