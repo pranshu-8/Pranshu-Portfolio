@@ -30,16 +30,7 @@ const onMsgChange= (e)=>{
    
     e.preventDefault()
 
-    axios({
-      method: "post",
-      url: "https://excited-cyan-turkey.cyclic.app/contact_us",
-    data: {
-      contacts// This is the body part
-    }
-  
-   } ).then((res)=>{
-
-    }).catch((err)=> console.log(err))
+    axios.post("https://excited-cyan-turkey.cyclic.app/contact_us",contacts).then((res)=>{}).catch((err)=> console.log(err))
     setContact({  name:"",
     email: "",
     message: "", sent: true})
