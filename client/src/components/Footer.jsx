@@ -29,7 +29,7 @@ const onMsgChange= (e)=>{
    
     e.preventDefault()
   let cn=contacts
-    axios.post("https://excited-cyan-turkey.cyclic.app/contact_us",{body: cn}).then((res)=>{
+    axios.post("https://excited-cyan-turkey.cyclic.app/contact_us",{body: contacts}).then((res)=>{
 
     }).catch((err)=> console.log(err))
     setContact({  name:"",
