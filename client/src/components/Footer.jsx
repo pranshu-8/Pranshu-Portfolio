@@ -26,7 +26,7 @@ const onMsgChange= (e)=>{
   setContact({...contacts, message: e.target.value})
 }
   const submitHandler = (e) => {
-    // console.log("bhakk")
+    console.log("Pranshu Tewari")
    
     e.preventDefault()
 
