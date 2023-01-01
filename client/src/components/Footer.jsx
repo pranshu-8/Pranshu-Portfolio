@@ -26,20 +26,20 @@ const onMsgChange= (e)=>{
   setContact({...contacts, message: e.target.value})
 }
   const submitHandler = (e) => {
-    console.log("Pranshu Tewari")
    
     e.preventDefault()
 
-    axios.post("https://excited-cyan-turkey.cyclic.app/contact_us",{body: contacts}).then((res)=>{}).catch((err)=> console.log(err))
-    setContact({  name:"",
-    email: "",
-    message: "", sent: true})
-
-    setTimeout(()=>{
+    axios.post("https://excited-cyan-turkey.cyclic.app/contact_us",{body: contacts}).then((res)=>{
       setContact({  name:"",
       email: "",
-      message: "", sent: false})
-    },2500)
+      message: "", sent: true})
+     setTimeout(()=>{
+        setContact({  name:"",
+        email: "",
+        message: "", sent: false})
+      },2500)
+    }).catch((err)=> console.log(err))
+
   }
     return (
         <Fragment>
