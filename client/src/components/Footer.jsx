@@ -28,18 +28,18 @@ const onMsgChange= (e)=>{
   const submitHandler = (e) => {
    
     e.preventDefault()
+  let cn=contacts
+    axios.post("https://excited-cyan-turkey.cyclic.app/contact_us",{body: cn}).then((res)=>{
 
-    axios.post("https://excited-cyan-turkey.cyclic.app/contact_us",{body: contacts}).then((res)=>{
+    }).catch((err)=> console.log(err))
+    setContact({  name:"",
+    email: "",
+    message: "", sent: true})
+   setTimeout(()=>{
       setContact({  name:"",
       email: "",
-      message: "", sent: true})
-     setTimeout(()=>{
-        setContact({  name:"",
-        email: "",
-        message: "", sent: false})
-      },2500)
-    }).catch((err)=> console.log(err))
-
+      message: "", sent: false})
+    },2500)
   }
     return (
         <Fragment>
